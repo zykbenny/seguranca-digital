@@ -116,6 +116,7 @@ body{
     width: 20px;
     height: 20px;
     cursor: pointer;
+    accent-color: var(--borda);
 }
 .barra{
     background-color: var(--fundo-senha);
