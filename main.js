@@ -37,16 +37,26 @@ function geraSenha(){
     let alfabeto = '';
 
     if (checkbox[0].checked){
-        alfabeto += letrasMaiusculas;
+        alfabeto += letrasMaiusculas[
+         Math.floor(Math.random() * letrasMaiusculas.length)
+        ]
     }
     if (checkbox[1].checked){
-        alfabeto += letrasMinusculas;
+        alfabeto += letrasMinusculas[
+         Math.floor(Math.random() * letrasMinusculas.length)
+        ]
     }
     if (checkbox[2].checked){
-        alfabeto += numeros;
+        alfabeto += numeros[
+         Math.floor(Math.random() * numeros.length)
+
+
+        ]
     }
     if (checkbox[3].checked){
-        alfabeto += simbolos;
+        alfabeto += simbolos[
+         Math.floor(Math.random() * simbolos.length)
+        ]
     }
 
     if (alfabeto.length === 0) {
