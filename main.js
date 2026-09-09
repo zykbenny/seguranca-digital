@@ -1,3 +1,9 @@
+/*Benny Graczyk de Lima - N°2
+Layza Kamilly Albino Amorim - N°16
+turma: 3°L*/
+
+
+
 const numeroSenha = document.querySelector('.parametro-senha__texto');
 let tamanhoSenha = 12;
 numeroSenha.textContent = tamanhoSenha;
@@ -10,6 +16,8 @@ const campoSenha = document.querySelector('#campo-senha');
 const botaoGerar = document.querySelector('#botao-gerar');
 const checkbox = document.querySelectorAll('.checkbox');
 const forcaSenha = document.querySelector('.forca');
+
+
 
 botaoGerar.onclick = geraSenhaSegura;
 botoes[0].onclick = diminuiTamanho;
