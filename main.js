@@ -7,9 +7,11 @@ const numeros = '0123456789';
 const simbolos = '!@%*?';
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 const campoSenha = document.querySelector('#campo-senha');
+const botaoGerar = document.querySelector('#botao-gerar');
 const checkbox = document.querySelectorAll('.checkbox');
 const forcaSenha = document.querySelector('.forca');
 
+botaoGerar.onclick = geraSenhaSegura;
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
 botoes[2].onclick = geraSenhaSegura;
