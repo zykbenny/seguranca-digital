@@ -17,7 +17,6 @@ botaoGerar.onclick = geraSenhaSegura;
 botaoGerar.onclick = geraSenhaSegura;
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
-botoes[2].onclick = geraSenhaSegura;
 
 function diminuiTamanho(){
     if (tamanhoSenha > 1){
